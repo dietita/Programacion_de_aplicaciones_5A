@@ -1,0 +1,26 @@
+name: pokedex_app
+description: "Práctica académica 02 - Flutter consumiendo una API (PokeAPI) con Dio."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # Paquete para hacer peticiones HTTP
+  dio: ^5.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Imágenes propias (GIF de Pikachu saludando)
+  assets:
+    - assets/
